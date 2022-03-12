@@ -23,3 +23,11 @@ $(document).ready(function () {
         }
     }
 });
+
+let saveData = function() {
+    // let inputHour = $(".textarea").val;
+    console.log("I am a working function/event listener");
+    
+};
+
+$("#save-btn").click(saveData);
